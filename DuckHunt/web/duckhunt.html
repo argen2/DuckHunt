@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DuckHunt</title>
+    <link rel="stylesheet" href="duckhunt.css">
+  </head>
+  <body>
+    <h1>DuckHunter</h1>
+    
+    <p>A Dart version of Duck Hunter, created by Charles, Arnaud and Yan.</p>
+    <div>
+      <canvas id="canvas" width="640" height="400"></canvas>
+    </div>
+    <div id="play">
+      <div id="round">R1</div>
+      <div id="shot">SHOT: 3</div>
+      <div id="hit">
+        <div class="hit" id="h1">X</div>
+        <div class="hit" id="h2">X</div>
+        <div class="hit" id="h3">X</div>
+        <div class="hit" id="h4">X</div>
+        <div class="hit" id="h5">X</div>
+        <div class="hit" id="h6">X</div>
+        <div class="hit" id="h7">X</div>
+        <div class="hit" id="h8">X</div>
+        <div class="hit" id="h9">X</div>
+        <div class="hit" id="h10">X</div>
+      </div>
+      <div id="score">0 points</div>
+    </div>
+
+    <img id="bg" src="img/background.png" />
+    <img id="start" src="img/start.png" />
+    <img id="gameover" src="img/gameover.png" />
+    <img id="pigeon1_dead" src="img/pigeon1_dead.png" />
+    <img id="pigeon1_flyOff" src="img/pigeon1_flyOff.png" />
+    <img id="pigeon1_left" src="img/pigeon1_left.png" />
+    <img id="pigeon1_right" src="img/pigeon1_right.png" />
+    <img id="pigeon2_dead" src="img/pigeon2_dead.png" />
+    <img id="pigeon2_flyOff" src="img/pigeon2_flyOff.png" />
+    <img id="pigeon2_left" src="img/pigeon2_left.png" />
+    <img id="pigeon2_right" src="img/pigeon2_right.png" />
+    <img id="pigeon3_dead" src="img/pigeon3_dead.png" />
+    <img id="pigeon3_flyOff" src="img/pigeon3_flyOff.png" />
+    <img id="pigeon3_left" src="img/pigeon3_left.png" />
+    <img id="pigeon3_right" src="img/pigeon3_right.png" />
+    
+    <audio id="startGameSound">
+       <source src="sound/start_game.mp3" type="audio/mpeg">
+       <source src="sound/start_game.ogg" type="audio/ogg">
+    </audio>
+    <audio id="startRoundSound">
+       <source src="sound/start_round.mp3" type="audio/mpeg">
+       <source src="sound/start_round.ogg" type="audio/ogg">
+    </audio>
+    <audio id="shootSound">
+       <source src="sound/shoot.mp3" type="audio/mpeg">
+       <source src="sound/shoot.ogg" type="audio/ogg">
+    
+    </audio>
+    <audio id="killSound">
+       <source src="sound/kill.mp3" type="audio/mpeg">
+       <source src="sound/kill.ogg" type="audio/ogg">
+    </audio>
+    <audio id="flyOffSound">
+       <source src="sound/flyOff.mp3" type="audio/mpeg">
+       <source src="sound/flyOff.ogg" type="audio/ogg">    
+    </audio>
+    <audio id="gameOverSound">
+       <source src="sound/game_over.mp3" type="audio/mpeg">
+       <source src="sound/game_over.ogg" type="audio/ogg">    
+    </audio>
+
+    <script type="application/dart" src="duckhunt.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
