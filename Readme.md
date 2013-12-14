@@ -2,11 +2,11 @@ SIO 2109 - INTRODUCTION A LA PROGRAMMATION
 
 PROJET FINAL - DUCKHUNT
 
-Pr�sent� par : 
+Presented by : 
 
 Arnaud Genest - 910 083 839 
-Charles Cot� - 111 009 697
-Yan Bussi�res - 910 145 657
+Charles Cote - 111 009 697
+Yan Bussieres - 910 145 657
 
 
 Remake of DuckHunt - Made by Nintendo in 1985 on NES (Nintendo Entertainement System)
