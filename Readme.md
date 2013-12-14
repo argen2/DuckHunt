@@ -22,6 +22,7 @@ Duck leaves after a while or after 3 misses.
 
 After a round, ducks moves and leaves faster. 
 
-There is 3 rounds. 
+There is 3 rounds of 10 ducks each.
+
 
 Try you skills and have fun !!
